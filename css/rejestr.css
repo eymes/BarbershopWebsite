@@ -1,0 +1,83 @@
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.register-section {
+  padding-top: 100px;
+  height: 90vh;
+  background: linear-gradient(17deg, rgb(251, 239, 216) 7%, rgb(255, 255, 255) 53%, rgb(252, 241, 221) 88%);
+}
+.register-section .register-content h2 {
+  margin: 45px 0;
+  font-size: 38px;
+  color: var(--second-color);
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 2px;
+}
+.register-section .register-content form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.register-section .register-content .register-elements {
+  padding: 7px;
+  margin: 5px;
+}
+.register-section .register-content .register-elements input {
+  width: 320px;
+  height: 45px;
+  padding: 10px;
+  font-size: 18px;
+  border: 1px solid var(--second-hover-color);
+  border-radius: 13px;
+}
+.register-section .register-content .send {
+  margin-top: 5px;
+  height: 50px;
+  width: 320px;
+  font-size: 20px;
+  background-color: var(--second-color);
+  color: #fff;
+  border-radius: 15px;
+  border: 1px solid var(--second-hover-color);
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.register-section .register-content .send:hover {
+  background-color: var(--second-hover-color);
+}
+.register-section .register-content p {
+  margin-top: 20px;
+  font-size: 18px;
+  letter-spacing: 0.5;
+}
+.register-section .register-content a {
+  text-decoration: none;
+  color: var(--second-color);
+}
+
+/* MEDIAQUERY */
+@media (min-width: 1000px) {
+  .register-section {
+    padding: 150px 0 100px 0;
+  }
+  .register-section .register-content h2 {
+    font-size: 42px;
+  }
+}
+@media (min-width: 1200px) {
+  .register-section {
+    padding: 150px 0 100px 0;
+  }
+  .register-section .register-content .login-elements input {
+    width: 330px;
+    height: 55px;
+  }
+  .register-section .register-content .send {
+    width: 330px;
+  }
+}/*# sourceMappingURL=rejestr.css.map */

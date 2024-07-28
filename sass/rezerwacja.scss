@@ -1,0 +1,117 @@
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+.reservation-section {
+	padding-top: 100px;
+	height: 90vh;
+	background: linear-gradient(
+		17deg,
+		rgba(251, 239, 216, 1) 7%,
+		rgba(255, 255, 255, 1) 53%,
+		rgba(252, 241, 221, 1) 88%
+	);
+
+	.reservation-content {
+		padding: 20px;
+
+		h2 {
+			margin-bottom: 25px;
+			font-size: 40px;
+			color: var(--second-color);
+			text-transform: uppercase;
+			text-align: center;
+			letter-spacing: 2px;
+		}
+
+		.info {
+			margin-bottom: 70px;
+			font-size: 20px;
+			text-align: center;
+			line-height: 1.5;
+			letter-spacing: 0.5px;
+		}
+
+		.reservation-info {
+			display: flex;
+			align-items: center;
+			text-align: center;
+			flex-direction: column;
+
+			.reser-text {
+				margin-bottom: 70px;
+				.p-text {
+					margin-bottom: 30px;
+					color: var(--second-color);
+					font-size: 24px;
+					text-transform: uppercase;
+				}
+
+				p {
+					font-size: 22px;
+				}
+			}
+
+			.reser-icon {
+				i {
+					color: var(--second-color);
+					font-size: 60px;
+					margin-bottom: 70px;
+				}
+			}
+
+			.reser-img-box {
+				.p-text {
+					margin-bottom: 30px;
+					color: var(--second-color);
+					font-size: 24px;
+					text-transform: uppercase;
+				}
+
+				img {
+					width: 150px;
+					transition: 0.3s;
+
+					&:hover {
+						scale: 1.1;
+					}
+				}
+			}
+		}
+	}
+}
+
+/* MEDIAQUERY */
+@media (min-width: 1000px) {
+	.reservation-section {
+		padding-top: 150px;
+
+		.reservation-content {
+			
+			.info {
+				font-size: 26px;
+			}
+			.reservation-info {
+				flex-direction: row;
+				justify-content: space-evenly;
+				align-items: flex-start;
+				margin-top: 150px;
+				border: 1px solid transparent;
+
+				.reser-text,
+				.reser-img-box {
+					.p-text {
+						font-size: 30px;
+					}
+				}
+				.reser-icon {
+					i {
+						font-size: 70px;
+					}
+				}
+			}
+		}
+	}
+}
