@@ -1,2 +1,3 @@
-# BarbershopWebsite
-Projekt strony barbershopu wykonany na zaliczenie przedmiotu.
+# Barbershop Website
+
+Projekt strony internetowej Barbershopu stworzony na zaliczenie przedmiotu.
